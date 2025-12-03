@@ -53,3 +53,14 @@ pip uninstall requests
 
 # Exécuter un script Python avec des arguments
 python mon_script.py arg1 arg2
+
+
+# Lancement de l'API
+uvicorn api:app --reload
+
+.dawan/Scripts/python -m uvicorn api:app --reload
+
+# Lancement de streamlit 
+streamlit run Home.py
+
+.dawan/Scripts/python -m streamlit run Home.py
